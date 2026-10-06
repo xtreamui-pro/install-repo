@@ -17,7 +17,7 @@ Tested on **Ubuntu 20.04 → 26.04 (Linux/AMD64)**.
 ```sh
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y curl wget
-curl -fsSL https://github.com/leduong/install.sh/raw/refs/heads/o11/install.sh | sudo -E bash -
+curl -fsSL https://github.com/xtreamui-pro/install-repo/refs/heads/maininstall.sh | sudo -E bash -
 ```
 
 The script automatically installs and configures: `nginx` (reverse proxy), `fail2ban`, `ufw`, `redis-server`, `ffmpeg`, and the `o11.service` systemd unit.
@@ -61,7 +61,7 @@ IPs listed in [ips.txt](ips.txt) are added to fail2ban's `ignoreip` — they wil
 If `o11` is already installed and running on `127.0.0.1:8283` (not via `install.sh`), use [fail2ban.sh](fail2ban.sh) to set up just the `nginx` reverse proxy + `fail2ban`:
 
 ```sh
-curl -fsSL https://github.com/leduong/install.sh/raw/refs/heads/o11/fail2ban.sh | sudo -E bash -
+curl -fsSL https://github.com/xtreamui-pro/install-repo/refs/heads/mainfail2ban.sh | sudo -E bash -
 ```
 
 ## Fixing permission issues (if any)
@@ -96,5 +96,5 @@ If you find these scripts useful, consider supporting the project:
 
 <p align="center">
   ⭐ Star this repo if you find it helpful!<br/>
-  Made with ❤️ by <a href="https://github.com/leduong">leduong</a>
+  Made with ❤️ by <a href="https://xtream-ui.pro">XtreamUI Pro</a>
 </p>
