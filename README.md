@@ -1,4 +1,4 @@
-# O11 Streamer V4
+# O11 Platform
 
 ![O11 Streamer preview](preview.jpg)
 
