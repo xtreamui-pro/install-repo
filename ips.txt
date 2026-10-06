@@ -1,0 +1,5 @@
+# Whitelist of IPs/CIDR allowed to reach o11 on port 8234.
+# One IP or CIDR per line. Lines starting with # are ignored.
+# Example:
+# 203.0.113.10
+# 198.51.100.0/24
